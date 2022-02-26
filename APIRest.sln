@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIRest", "APIRest\APIRest.csproj", "{E844745E-136D-432A-AF27-64C24BB6E5C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Apresentacao", "1.Apresentacao", "{84042F07-228A-4AFF-8045-187802656291}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Aplicacao", "2.Aplicacao", "{F79FFCCE-BC02-4F93-823F-51BECCB88FBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Dominio", "3.Dominio", "{36B84475-526B-4DE3-A04E-72CBB934C219}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infraestrutura", "4.Infraestrutura", "{126B968A-7499-4376-AE6A-D605C5DD6965}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIRest.Dominio", "APIRest.Dominio\APIRest.Dominio.csproj", "{62812074-DE43-45E3-BB56-0E725C6DADE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIRest.Infraestrutura", "APIRest.Infraestrutura\APIRest.Infraestrutura.csproj", "{8D187C3D-8C8A-44A4-970A-6BA87B106535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIRest.Aplicacao", "APIRest.Aplicacao\APIRest.Aplicacao.csproj", "{F940F07C-743F-45D0-9241-763965A61FDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E844745E-136D-432A-AF27-64C24BB6E5C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E844745E-136D-432A-AF27-64C24BB6E5C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E844745E-136D-432A-AF27-64C24BB6E5C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E844745E-136D-432A-AF27-64C24BB6E5C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62812074-DE43-45E3-BB56-0E725C6DADE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62812074-DE43-45E3-BB56-0E725C6DADE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62812074-DE43-45E3-BB56-0E725C6DADE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62812074-DE43-45E3-BB56-0E725C6DADE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D187C3D-8C8A-44A4-970A-6BA87B106535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D187C3D-8C8A-44A4-970A-6BA87B106535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D187C3D-8C8A-44A4-970A-6BA87B106535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D187C3D-8C8A-44A4-970A-6BA87B106535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F940F07C-743F-45D0-9241-763965A61FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F940F07C-743F-45D0-9241-763965A61FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F940F07C-743F-45D0-9241-763965A61FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F940F07C-743F-45D0-9241-763965A61FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E844745E-136D-432A-AF27-64C24BB6E5C5} = {84042F07-228A-4AFF-8045-187802656291}
+		{62812074-DE43-45E3-BB56-0E725C6DADE6} = {36B84475-526B-4DE3-A04E-72CBB934C219}
+		{8D187C3D-8C8A-44A4-970A-6BA87B106535} = {126B968A-7499-4376-AE6A-D605C5DD6965}
+		{F940F07C-743F-45D0-9241-763965A61FDA} = {F79FFCCE-BC02-4F93-823F-51BECCB88FBB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5350A22-CDDB-4F47-97E3-9085B54D03C7}
+	EndGlobalSection
+EndGlobal

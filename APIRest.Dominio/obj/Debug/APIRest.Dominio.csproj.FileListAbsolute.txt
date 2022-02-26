@@ -1,0 +1,6 @@
+C:\Users\Denisson\source\repos\APIRest\APIRest.Dominio\bin\Debug\APIRest.Dominio.dll
+C:\Users\Denisson\source\repos\APIRest\APIRest.Dominio\bin\Debug\APIRest.Dominio.pdb
+C:\Users\Denisson\source\repos\APIRest\APIRest.Dominio\obj\Debug\APIRest.Dominio.csproj.AssemblyReference.cache
+C:\Users\Denisson\source\repos\APIRest\APIRest.Dominio\obj\Debug\APIRest.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Denisson\source\repos\APIRest\APIRest.Dominio\obj\Debug\APIRest.Dominio.dll
+C:\Users\Denisson\source\repos\APIRest\APIRest.Dominio\obj\Debug\APIRest.Dominio.pdb

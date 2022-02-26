@@ -1,0 +1,147 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Denisson\\source\\repos\\APIRest\\APIRest\\APIRest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Denisson\\source\\repos\\APIRest\\APIRest.Aplicacao\\APIRest.Aplicacao.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Denisson\\source\\repos\\APIRest\\APIRest.Aplicacao\\APIRest.Aplicacao.csproj",
+        "projectName": "APIRest.Aplicacao",
+        "projectPath": "C:\\Users\\Denisson\\source\\repos\\APIRest\\APIRest.Aplicacao\\APIRest.Aplicacao.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Denisson\\source\\repos\\APIRest\\APIRest.Dominio\\APIRest.Dominio.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Denisson\\source\\repos\\APIRest\\APIRest.Dominio\\APIRest.Dominio.csproj",
+        "projectName": "APIRest.Dominio",
+        "projectPath": "C:\\Users\\Denisson\\source\\repos\\APIRest\\APIRest.Dominio\\APIRest.Dominio.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Denisson\\source\\repos\\APIRest\\APIRest.Infraestrutura\\APIRest.Infraestrutura.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Denisson\\source\\repos\\APIRest\\APIRest.Infraestrutura\\APIRest.Infraestrutura.csproj",
+        "projectName": "APIRest.Infraestrutura",
+        "projectPath": "C:\\Users\\Denisson\\source\\repos\\APIRest\\APIRest.Infraestrutura\\APIRest.Infraestrutura.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Denisson\\source\\repos\\APIRest\\APIRest.Aplicacao\\APIRest.Aplicacao.csproj": {
+                "projectPath": "C:\\Users\\Denisson\\source\\repos\\APIRest\\APIRest.Aplicacao\\APIRest.Aplicacao.csproj"
+              },
+              "C:\\Users\\Denisson\\source\\repos\\APIRest\\APIRest.Dominio\\APIRest.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Denisson\\source\\repos\\APIRest\\APIRest.Dominio\\APIRest.Dominio.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Denisson\\source\\repos\\APIRest\\APIRest\\APIRest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Denisson\\source\\repos\\APIRest\\APIRest\\APIRest.csproj",
+        "projectName": "APIRest",
+        "projectPath": "C:\\Users\\Denisson\\source\\repos\\APIRest\\APIRest\\APIRest.csproj",
+        "packagesPath": "C:\\Users\\Denisson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Denisson\\source\\repos\\APIRest\\APIRest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Denisson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Denisson\\source\\repos\\APIRest\\APIRest.Aplicacao\\APIRest.Aplicacao.csproj": {
+                "projectPath": "C:\\Users\\Denisson\\source\\repos\\APIRest\\APIRest.Aplicacao\\APIRest.Aplicacao.csproj"
+              },
+              "C:\\Users\\Denisson\\source\\repos\\APIRest\\APIRest.Dominio\\APIRest.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Denisson\\source\\repos\\APIRest\\APIRest.Dominio\\APIRest.Dominio.csproj"
+              },
+              "C:\\Users\\Denisson\\source\\repos\\APIRest\\APIRest.Infraestrutura\\APIRest.Infraestrutura.csproj": {
+                "projectPath": "C:\\Users\\Denisson\\source\\repos\\APIRest\\APIRest.Infraestrutura\\APIRest.Infraestrutura.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

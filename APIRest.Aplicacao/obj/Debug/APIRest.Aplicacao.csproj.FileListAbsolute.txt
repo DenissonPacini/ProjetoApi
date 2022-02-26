@@ -1,0 +1,6 @@
+C:\Users\Denisson\source\repos\APIRest\APIRest.Aplicacao\bin\Debug\APIRest.Aplicacao.dll
+C:\Users\Denisson\source\repos\APIRest\APIRest.Aplicacao\bin\Debug\APIRest.Aplicacao.pdb
+C:\Users\Denisson\source\repos\APIRest\APIRest.Aplicacao\obj\Debug\APIRest.Aplicacao.csproj.AssemblyReference.cache
+C:\Users\Denisson\source\repos\APIRest\APIRest.Aplicacao\obj\Debug\APIRest.Aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\Denisson\source\repos\APIRest\APIRest.Aplicacao\obj\Debug\APIRest.Aplicacao.dll
+C:\Users\Denisson\source\repos\APIRest\APIRest.Aplicacao\obj\Debug\APIRest.Aplicacao.pdb
