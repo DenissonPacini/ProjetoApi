@@ -61,8 +61,8 @@ namespace APIRest
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-            });            
-
+            });
+            
             serviceProvider.GetService<IDataService>().InicializaDB();
         }
     }
